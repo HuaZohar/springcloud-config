@@ -6,12 +6,12 @@
 
 ---
 spring:
-  profiles:
+  profiles: dev
   application:
     name: iworkcloud-config-dev
 
 ---
 spring:
-  profiles:
+  profiles: test
   application:
     name: iworkcloud-config-test
