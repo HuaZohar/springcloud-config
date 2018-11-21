@@ -1,0 +1,17 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+
+
+---
+spring:
+  profiles:
+  application:
+    name: iworkcloud-config-dev
+
+---
+spring:
+  profiles:
+  application:
+    name: iworkcloud-config-test
